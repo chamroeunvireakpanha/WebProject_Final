@@ -1,0 +1,126 @@
+footer {
+    background-color: black;
+    color: rgb(227, 225, 225);
+    padding: 20px 10px;
+    margin-left: 25%;
+    width: 75%;
+}
+footer li{
+    display: block;
+    margin-bottom: 25px;
+    opacity: 0.75;
+}
+footer a{
+    color: rgb(227, 225, 225);
+}
+footer a:active{
+    color: white;
+}
+footer .footer-top-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+footer .footer-top-right img{
+    height: 60px;
+    margin-right: 8px;
+}
+footer .footer-top-right .header{
+    display: flex;
+}
+footer .footer-top-right a{
+    opacity: 1.0;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+footer .footer-top-right a:hover{
+    opacity: 0.75;
+}
+footer .footer-top-right li{
+    display: inline;
+    margin: 0 10px;
+}
+footer .footer-top-right ul{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .footer-bottom-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .footer-bottom-left{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    font-size: 0.9em;
+    opacity: 0.85;
+}
+footer .footer-bottom-left #copyright{
+    font-size: 0.7em;
+}
+footer .footer-bottom-right{
+    display: flex;
+    align-items: center;
+}
+footer .footer-bottom-right ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 0.7em;
+    margin: 0 20px;
+    opacity: 0.75;
+}
+@media  (max-width: 900px){
+    footer {
+        padding: 10px 5px;
+        font-size: 0.7em;
+    }
+    footer li{
+        margin-bottom: 10px;
+    }
+    footer .footer-top-container{
+        margin-bottom: 5px;
+        padding: 0 10px;
+    }
+    footer .footer-top-right img{
+        height: 30px;
+        margin-right: 4px;
+    }
+    footer .footer-top-container div{
+        min-width: 150px;
+    }
+    footer .footer-top-right .header{
+        display: flex;
+        align-items: center;
+    }
+    footer .footer-top-right a{
+        margin: 0 5px;
+        font-size: 1.5em;
+    }
+    footer .footer-top-right ul{
+        margin: 10px 0;
+    }
+} 
+@media (max-width: 900px) {
+    footer{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media (max-width: 500px) {
+}
+@media (max-width: 350px) {
+    }   
+
